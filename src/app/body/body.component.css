@@ -1,0 +1,33 @@
+.presentation {
+    display: flex;
+}
+.left-body {
+    z-index: 1;
+    animation: drop 1.5s ease;
+}
+.left-body img {
+    filter: drop-shadow(3px 15px 3px black);
+}
+.right-body {
+  height: 30%;
+  width: 40%;
+  margin-left: 0;
+  margin-top: 15%; 
+  z-index: 1;
+}
+.right-body p {
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

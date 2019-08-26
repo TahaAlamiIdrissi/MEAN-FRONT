@@ -1,0 +1,38 @@
+<form>
+  <div class="register-box">
+    <h1>Register</h1>
+    <div class="textbox">
+      <i class="fa fa-user-circle" aria-hidden="true"></i>
+      <input
+        [(ngModel)]="User.name"
+        name="name"
+        type="text"
+        placeholder="Username"
+      />
+    </div>
+    <div class="textbox">
+      <i class="fa fa-user" aria-hidden="true"></i>
+      <input
+        [(ngModel)]="User.email"
+        name="email"
+        type="email"
+        placeholder="E-mail"
+      />
+    </div>
+    <div class="textbox">
+      <i class="fa fa-lock" aria-hidden="true"></i>
+      <input
+        [(ngModel)]="User.password"
+        name="password"
+        type="password"
+        placeholder="Password"
+      />
+    </div>
+    <input
+      type="button"
+      (click)="registerUser()"
+      value="Register"
+      class="btn"
+    />
+  </div>
+</form>

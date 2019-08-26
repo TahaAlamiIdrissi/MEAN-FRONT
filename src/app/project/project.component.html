@@ -1,0 +1,15 @@
+<div class="projects" >
+    <div class="col" *ngFor="let project of projects">
+        <div class="table" >
+            <h2>{{project.name}}</h2>
+            <div class="price">
+                {{project.forks}}
+                <span>forks</span>
+            </div>
+            <div class="description">
+                <p>{{project.description}}</p>
+            </div>
+            <a href="{{project.clone_url}}">Clone Now</a>
+        </div>
+    </div>
+</div>

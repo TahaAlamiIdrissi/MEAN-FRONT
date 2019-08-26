@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap");
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  background: url(./assets/img/background.jpg) center center fixed no-repeat;
+  background-size: cover;
+}
+.success {
+  background: #4caf4fb0;
+  position: absolute;
+  left: 39%;
+  top: 20%;
+  border-radius: 25px;
+  filter: drop-shadow(2px 10px 3px black);
+  font-size: 20px;
+  margin-bottom: 50px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 13px 0;
+}
+.error {
+  background: rgba(224, 46, 46, 0.726);
+  position: absolute;
+  left: 39%;
+  top: 20%;
+  border-radius: 25px;
+  filter: drop-shadow(2px 10px 3px black);
+  font-size: 20px;
+  margin-bottom: 50px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 13px 0;
+}
